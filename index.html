@@ -3,117 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio de Martin</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-
-        main {
-            padding: 20px;
-        }
-
-        .project {
-            background-color: #fff;
-            margin-bottom: 20px;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-
-        .project h2 {
-            margin-top: 0;
-            color: #333;
-        }
-
-        .project p {
-            line-height: 1.6;
-            color: #666;
-        }
-
-        .project .details {
-            margin-bottom: 15px;
-        }
-
-        .project .skills {
-            margin: 10px 0;
-            font-weight: bold;
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #333;
-            color: white;
-        }
-    </style>
+    <title>Portfolio - Martin Coulon</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <h1>Portfolio de Martin Coulon</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">À propos de moi</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#projects">Projets</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<header>
-    <h1>Portfolio de Martin</h1>
-</header>
-
-<main>
-    <section class="project">
-        <h2>Analyse sociologique des étudiants du concours commun</h2>
-        <div class="details">
-            <strong>Date :</strong> 08/10/2024 - 15/12/2024<br>
-            <strong>Description :</strong> Pour Sciences Po Lille, j'ai travaillé avec une équipe de 3 personnes sur une base de données Parcoursup des étudiants ayant passé le concours des 7 IEP. Nous avons cherché à identifier les variables favorisant la réussite du concours.
-        </div>
-        <p class="skills">Compétences : Python, Gestion de projet, Recherche, Analyse de données, Machine Learning</p>
-        <p><em>Quoi poster : </em>Code source à venir</p>
+    <section id="about">
+        <h2>À propos de moi</h2>
+        <p>🎯 <strong>Ouvert à de nouvelles opportunités à partir de janvier 2025 !</strong></p>
+        <p>Je suis à la recherche d'une <strong>expérience professionnelle</strong> qui me permettrait de mettre à profit mes compétences en <strong>analyse de données</strong> en tant que <strong>Data Analyst</strong>, <strong>Data Scientist</strong> ou <strong>Chargé d'Études</strong> sur des projets numériques ambitieux, notamment autour de l'adaptation aux changements climatiques ou des sujets d’Open Data.</p>
+        <p>🔍 Mon parcours en double diplôme à <strong>Sciences Po Lille et Centrale Lille</strong> m'a permis de développer des compétences solides en <strong>analyse de données</strong>, <strong>machine learning</strong>, et <strong>gestion de projets</strong>. J'ai travaillé sur des projets tels que l’étude des pratiques de géolocalisation des enfants par leurs parents, etc.</p>
+        <p>💡 Curieux, ouvert et pro-actif, je cherche un environnement <strong>dynamique</strong> et <strong>stimulant</strong> pour contribuer à des <strong>projets innovants</strong>.</p>
+        <p>🔧 <strong>Compétences techniques</strong> :</p>
+        <ul>
+            <li><strong>Analyse de données et Data Viz</strong> : Python (Pandas, Seaborn, Plotly, Dash), R (Tidyverse, Ggplot2), Excel, Power BI</li>
+            <li><strong>SQL</strong> : Optimisation des bases de données, requêtes complexes</li>
+            <li><strong>Automatisation des processus</strong> : OpenPyxl, Selenium, Scripting</li>
+            <li><strong>Machine Learning</strong> : Scikit-learn, Keras, TensorFlow</li>
+        </ul>
     </section>
 
-    <section class="project">
-        <h2>Mémoire de recherche : La géolocalisation des enfants par leurs parents</h2>
-        <div class="details">
-            <strong>Date :</strong> 09/09/2023 - 15/06/2024<br>
-            <strong>Description :</strong> Travail quantitatif sur les pratiques de géolocalisation des enfants par leurs parents. J'ai récolté plus de 500 réponses via un questionnaire auprès de 7 établissements scolaires.
-        </div>
-        <p class="skills">Compétences : Programmation en R, Gestion de projet, Analyse de données, Régression logistique</p>
-        <p><em>Quoi poster : </em>Résumé, scripts R, conclusion du mémoire</p>
+    <section id="cv">
+        <h2>CV</h2>
+        <p>Insérer ici un lien pour télécharger ton CV en PDF :</p>
+        <a href="cv/martin-coulon-cv.pdf" download>Télécharger mon CV</a>
     </section>
 
-    <section class="project">
-        <h2>Projet Stats - Analyse des salaires</h2>
-        <div class="details">
-            <strong>Date :</strong> 11/03/2024<br>
-            <strong>Description :</strong> Étude des disparités salariales dans les secteurs de la programmation, du marketing et du commerce. Analyse des variables discriminantes pour la rémunération.
-        </div>
-        <p class="skills">Compétences : Programmation en R, Analyse de données, Régression Linéaire Multiple</p>
-        <p><em>Quoi poster : </em>Travail complet avec brève conclusion</p>
+    <section id="projects">
+        <h2>Projets</h2>
+        <h3>Projets d'analyse de données</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Projet</th>
+                    <th>Date</th>
+                    <th>Description</th>
+                    <th>Compétences</th>
+                    <th>Quoi poster</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Infrastructures sportives en France</td>
+                    <td>À venir</td>
+                    <td>Exploitation de la base de donnée Data ES en Open Data. Analyse des infrastructures sportives en France.</td>
+                    <td>Python, Analyse de données, Machine Learning</td>
+                    <td>Le code sera Open Source</td>
+                </tr>
+                <tr>
+                    <td>Analyse sociologique des étudiants du concours commun</td>
+                    <td>08/10/2024 - 15/12/2024</td>
+                    <td>Identification des variables favorisant la réussite au concours des 7 IEP.</td>
+                    <td>Python, Gestion de projet, Recherche, Analyse de données, Machine Learning</td>
+                    <td>Le code source sera disponible à la fin du travail</td>
+                </tr>
+                <!-- Ajouter plus de projets d'analyse de données ici -->
+            </tbody>
+        </table>
+
+        <h3>Projets universitaires</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Projet</th>
+                    <th>Date</th>
+                    <th>Description</th>
+                    <th>Compétences</th>
+                    <th>Quoi poster</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mémoire de recherche : La géolocalisation des enfants par leurs parents</td>
+                    <td>09/09/2023 - 15/06/2024</td>
+                    <td>Analyse quantitative de la géolocalisation des enfants.</td>
+                    <td>R, Gestion de projet, Recherche, Analyse de données, Réalisation de questionnaire, Régression Logistique</td>
+                    <td>Résumé du travail, Scripts R, et conclusion</td>
+                </tr>
+                <!-- Ajouter plus de projets universitaires ici -->
+            </tbody>
+        </table>
     </section>
 
-    <section class="project">
-        <h2>Projet Stats - Bibliothèques</h2>
-        <div class="details">
-            <strong>Date :</strong> 10/11/2023<br>
-            <strong>Description :</strong> Analyse exploratoire des données de fréquentation des bibliothèques municipales, avec un focus sur les évolutions récentes.
-        </div>
-        <p class="skills">Compétences : Programmation en R, Nettoyage de données, Analyse de données</p>
-        <p><em>Quoi poster : </em>Travail complet avec brève conclusion</p>
-    </section>
-</main>
-
-<footer>
-    <p>© 2024 Martin Portfolio - Tous droits réservés</p>
-</footer>
-
+    <footer>
+        <p>© 2024 Martin Coulon - Tous droits réservés</p>
+    </footer>
 </body>
 </html>
